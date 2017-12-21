@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hesitate</string>
+    <string name="title_home">Number</string>
+    <string name="title_dashboard">TrueOrFalse</string>
+    <string name="title_notifications">Custom</string>
+    <string name="count">count</string>
+    <string name="options">options</string>
+    <string name="max">max</string>
+    <string name="min">min</string>
+    <string name="btn_text">click here</string>
+    <string name="options_hint">Separated by commas</string>
+</resources>

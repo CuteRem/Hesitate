@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">躊躇</string>
+    <string name="title_home">數字</string>
+    <string name="title_dashboard">是與非</string>
+    <string name="title_notifications">自定義</string>
+    <string name="count">數目</string>
+    <string name="options">備選項</string>
+    <string name="max">最大值</string>
+    <string name="min">最小值</string>
+    <string name="btn_text">點擊</string>
+    <string name="options_hint">備選的選項，用逗號分隔</string>
+</resources>
