@@ -67,7 +67,7 @@ public class CustomFragment extends Fragment {
         }
         for (int i = 0; i < n; i++) {
             // 调用Math.random()方法
-            int num = (int) (Math.random() * (max - min)) + min;
+            int num = new Random().nextInt(max - min + 1) + min;
             set.add(options[num]);// 将不同的数存入HashSet中
         }
         int setSize = set.size();
@@ -83,5 +83,5 @@ public class CustomFragment extends Fragment {
         String s = set.toString();
         return s.substring(1, s.length() - 1);
     }
-
+    
 }
