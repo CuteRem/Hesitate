@@ -43,13 +43,14 @@ public class NumberFragment extends Fragment {
                 String maxStr = maxView.getText().toString();
                 int max = TextUtils.isEmpty(maxStr) ? 1 : Integer.parseInt(maxStr);
 
-                resultView.setText(resultStr(min, max, count));
+                resultView.setText(randomSet(min, max, count));
             }
         });
     }
 
-    private void randomSet(int min, int max, int n, HashSet<Integer> set) {
+    private String randomSet(int min, int max, int n) {
 
+        ArrayList<Integer> list = new ArrayList<>();
         if (max < min) {
             int temp = min;
             min = max;
@@ -59,21 +60,19 @@ public class NumberFragment extends Fragment {
             n = max - min + 1;
         }
         for (int i = 0; i < n; i++) {
-            // 调用Math.random()方法
-            int num = (int) (Math.random() * (max - min)) + min;
-            set.add(num);// 将不同的数存入HashSet中
+            random(min, max, list);
         }
-        int setSize = set.size();
-        // 如果存入的数小于指定生成的个数，则调用递归再生成剩余个数的随机数，如此循环，直到达到指定大小
-        if (setSize < n) {
-            randomSet(min, max, n - setSize, set);// 递归
-        }
+        Collections.sort(list);
+        return list.toString();
     }
 
-    private String resultStr(int min, int max, int n) {
-        HashSet<Integer> set = new HashSet<>();
-        randomSet(min, max, n, set);
-        String s = set.toString();
-        return s.substring(1, s.length() - 1);
+    private static void random(int min, int max, ArrayList<Integer> list) {
+
+        int num = new Random().nextInt(max - min + 1) + min;
+        if (list.contains(num)) {
+            random(min, max, list);
+        } else {
+            list.add(num);
+        }
     }
 }
