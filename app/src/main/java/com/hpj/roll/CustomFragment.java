@@ -1,4 +1,4 @@
-package com.hpj.chooser;
+package com.hpj.roll;
 
 
 import android.os.Bundle;
@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.HashSet;
+import java.util.Random;
 
 /**
  * Created by hpj16042 on 2017/12/19.

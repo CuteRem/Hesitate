@@ -1,4 +1,4 @@
-package com.hpj.chooser;
+package com.hpj.roll;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;

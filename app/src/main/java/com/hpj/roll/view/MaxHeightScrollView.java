@@ -1,4 +1,4 @@
-package com.hpj.chooser.view;
+package com.hpj.roll.view;
 
 import android.app.Activity;
 import android.content.Context;

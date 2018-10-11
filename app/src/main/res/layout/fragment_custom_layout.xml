@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.hpj.chooser.view.MaxHeightScrollView
+    <com.hpj.roll.view.MaxHeightScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -18,7 +18,7 @@
             android:textColor="@color/btn_click"
             android:textSize="22sp"
             tools:text="1" />
-    </com.hpj.chooser.view.MaxHeightScrollView>
+    </com.hpj.roll.view.MaxHeightScrollView>
 
     <TextView
         android:id="@+id/textView"
@@ -55,7 +55,7 @@
         android:layout_toEndOf="@+id/textView2"
         android:hint="@string/options_hint" />
 
-    <com.hpj.chooser.view.ActionButton
+    <com.hpj.roll.view.ActionButton
         android:id="@+id/btn_click"
         android:layout_width="100dp"
         android:layout_height="wrap_content"

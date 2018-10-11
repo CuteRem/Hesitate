@@ -1,4 +1,4 @@
-package com.hpj.chooser;
+package com.hpj.roll;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,7 +10,10 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.Random;
 
 /**
  * Created by hpj16042 on 2017/12/20.

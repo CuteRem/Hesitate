@@ -1,4 +1,4 @@
-package com.hpj.chooser.view;
+package com.hpj.roll.view;
 
 import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
@@ -8,17 +8,13 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.drawable.Drawable;
 import android.support.v7.widget.AppCompatButton;
-import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Property;
 import android.view.MotionEvent;
-import android.view.View;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.Button;
 
-import com.hpj.chooser.R;
+import com.hpj.roll.R;
 /**
  * Created by hpj16042 on 2017/12/20.
  */

@@ -1,4 +1,4 @@
-package com.hpj.chooser;
+package com.hpj.roll;
 
 import org.junit.Test;
 

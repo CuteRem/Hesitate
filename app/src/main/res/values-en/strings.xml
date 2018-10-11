@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hesitate</string>
+    <string name="app_name">Roll</string>
     <string name="title_home">Number</string>
     <string name="title_dashboard">TrueOrFalse</string>
     <string name="title_notifications">Custom</string>
